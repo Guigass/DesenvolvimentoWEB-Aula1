@@ -1,4 +1,5 @@
-﻿using Fiap01.Models;
+﻿using Fiap01.Data;
+using Fiap01.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -9,21 +10,38 @@ namespace Fiap01.Controllers
 {
     public class HomeController : Controller
     {
+        private PerguntasContext _context;
+        public HomeController(PerguntasContext context)
+        {
+            _context = context;
+        }
+
         public IActionResult Index()
         {
-            ViewBag.Nome = "Guilherme";
-
-            ViewData["DataAgora"] = $"A Data é {DateTime.Now.ToString()}";
-
-            var pergunta = new Pergunta
-            {
-                Id = 0,
-                Autor = "Daniel",
-                Descricao = "Que horas é a chamada?"
-            };
-
-            return View(pergunta);
+            return View(_context.Perguntas.ToList());
         }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(Pergunta pergunta)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Perguntas.Add(pergunta);
+
+                await _context.SaveChangesAsync();
+
+                ViewBag.status = "ok";
+            }
+
+            return View();
+        }
+
         public IActionResult Ajuda()
         {
             return View();

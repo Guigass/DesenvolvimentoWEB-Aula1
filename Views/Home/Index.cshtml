@@ -1,14 +1,18 @@
-﻿@model Pergunta
-@{ 
+﻿@model IEnumerable<Pergunta>
+@{
     ViewData["Title"] = "Home";
 }
 
 <h1>Home</h1>
+<img src="~/gif.gif" />
+<ul>
+    @foreach (var item in Model)
+    {
+    <li>
+        <p>@item.Id</p>
+        <p>@item.Autor</p>
+        <p>@item.Descricao</p>
+    </li>
+    }
+</ul>
 
-<h2>@ViewBag.Nome</h2>
-
-<h2>@ViewData["DataAgora"]</h2>
-
-<p>@Model.Id</p>
-<p>@Model.Autor</p>
-<p>@Model.Descricao</p>
