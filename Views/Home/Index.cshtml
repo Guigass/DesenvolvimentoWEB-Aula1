@@ -1,5 +1,14 @@
-﻿@{ 
+﻿@model Pergunta
+@{ 
     ViewData["Title"] = "Home";
 }
 
 <h1>Home</h1>
+
+<h2>@ViewBag.Nome</h2>
+
+<h2>@ViewData["DataAgora"]</h2>
+
+<p>@Model.Id</p>
+<p>@Model.Autor</p>
+<p>@Model.Descricao</p>

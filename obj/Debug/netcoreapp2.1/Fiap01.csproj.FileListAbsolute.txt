@@ -3,7 +3,6 @@ C:\Users\logonrmlocal\Desktop\Fiap01\bin\Debug\netcoreapp2.1\Fiap01.runtimeconfi
 C:\Users\logonrmlocal\Desktop\Fiap01\bin\Debug\netcoreapp2.1\Fiap01.runtimeconfig.dev.json
 C:\Users\logonrmlocal\Desktop\Fiap01\bin\Debug\netcoreapp2.1\Fiap01.dll
 C:\Users\logonrmlocal\Desktop\Fiap01\bin\Debug\netcoreapp2.1\Fiap01.pdb
-C:\Users\logonrmlocal\Desktop\Fiap01\obj\Debug\netcoreapp2.1\Fiap01.csprojAssemblyReference.cache
 C:\Users\logonrmlocal\Desktop\Fiap01\obj\Debug\netcoreapp2.1\Fiap01.csproj.CoreCompileInputs.cache
 C:\Users\logonrmlocal\Desktop\Fiap01\obj\Debug\netcoreapp2.1\Fiap01.AssemblyInfoInputs.cache
 C:\Users\logonrmlocal\Desktop\Fiap01\obj\Debug\netcoreapp2.1\Fiap01.AssemblyInfo.cs
@@ -28,3 +27,4 @@ C:\Users\logonrmlocal\Desktop\Fiap01\obj\Debug\netcoreapp2.1\Razor\Views\_ViewIm
 C:\Users\logonrmlocal\Desktop\Fiap01\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
 C:\Users\logonrmlocal\Desktop\Fiap01\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
 C:\Users\logonrmlocal\Desktop\Fiap01\obj\Debug\netcoreapp2.1\Razor\Views\Autor\Index.g.cshtml.cs
+C:\Users\logonrmlocal\Desktop\Fiap01\obj\Debug\netcoreapp2.1\Razor\Views\Topico\Index.g.cshtml.cs

@@ -33,19 +33,23 @@ public class Startup
         app.UseMvc(routes =>
         {
             routes.MapRoute(
-                name: "autor",
-                template: "autor/{nome}",
-                defaults: new { controller = "Autor", action="Index" });
+                name: "default",
+                template: "{controller=Home}/{action=Index}/{id?}");
 
-            routes.MapRoute(
-                name: "autoresDoAno",
-                template: "{ano:int}/autor",
-                defaults: new { controller = "Autor", action = "ListaDosAutoresDoAno" });
+            //routes.MapRoute(
+            //    name: "autor",
+            //    template: "autor/{nome}",
+            //    defaults: new { controller = "Autor", action="Index" });
 
-            routes.MapRoute(
-                name: "topicosDaCategoria",
-                template: "{categoria}/{topico}",
-                defaults: new { controller = "Topicos", action = "Index" });
+            //routes.MapRoute(
+            //    name: "autoresDoAno",
+            //    template: "{ano:int}/autor",
+            //    defaults: new { controller = "Autor", action = "ListaDosAutoresDoAno" });
+
+            //routes.MapRoute(
+            //    name: "topicosDaCategoria",
+            //    template: "{categoria}/{topico}",
+            //    defaults: new { controller = "Topicos", action = "Index" });
         });
     }
 }

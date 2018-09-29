@@ -18,8 +18,13 @@ using Fiap01;
 
 #line default
 #line hidden
+#line 2 "C:\Users\logonrmlocal\Desktop\Fiap01\Views\_ViewImports.cshtml"
+using Fiap01.Models;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"046fef8d6e42e03bd01e47902f3d671ca926c21c", @"/Views/Autor/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"46f9c1243ba805a3ae80b90ed05aa43ef30003d1", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"087ce572fa3cb3a33ea9ce33cf3c03452f095626", @"/Views/_ViewImports.cshtml")]
     public class Views_Autor_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -58,7 +63,7 @@ using Fiap01;
             WriteLiteral("\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(58, 100, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "003cce2ae4e64a978f93299c308b28a0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0317e3ef07734a7cac971dffe4c48e40", async() => {
                 BeginContext(64, 87, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Index</title>\r\n");
                 EndContext();
@@ -78,7 +83,7 @@ using Fiap01;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(160, 15, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a1be8a97756c43fc8882ae02344d0510", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "81acb7a0d93742c8aa20f2b7dc678b46", async() => {
                 BeginContext(166, 2, true);
                 WriteLiteral("\r\n");
                 EndContext();

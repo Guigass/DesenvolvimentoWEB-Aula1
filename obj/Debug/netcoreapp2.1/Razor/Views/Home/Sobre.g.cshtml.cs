@@ -18,8 +18,13 @@ using Fiap01;
 
 #line default
 #line hidden
+#line 2 "C:\Users\logonrmlocal\Desktop\Fiap01\Views\_ViewImports.cshtml"
+using Fiap01.Models;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4c539ec4d20183164cc06ae6b83d8ed9bb543f6c", @"/Views/Home/Sobre.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"46f9c1243ba805a3ae80b90ed05aa43ef30003d1", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"087ce572fa3cb3a33ea9ce33cf3c03452f095626", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Sobre : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

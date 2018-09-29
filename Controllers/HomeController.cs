@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Fiap01.Models;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,18 @@ namespace Fiap01.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            ViewBag.Nome = "Guilherme";
+
+            ViewData["DataAgora"] = $"A Data é {DateTime.Now.ToString()}";
+
+            var pergunta = new Pergunta
+            {
+                Id = 0,
+                Autor = "Daniel",
+                Descricao = "Que horas é a chamada?"
+            };
+
+            return View(pergunta);
         }
         public IActionResult Ajuda()
         {
