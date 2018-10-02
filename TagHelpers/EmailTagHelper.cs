@@ -9,7 +9,7 @@ namespace Fiap01.TagHelpers
     public class EmailTagHelper : TagHelper
     {
         public string MailTo { get; set; }
-        public override void Process(TagHelperContext context, TagHelperOutput output)
+        public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
         {
             output.TagName = "a";
 
