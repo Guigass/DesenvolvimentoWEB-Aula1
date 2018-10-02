@@ -4,15 +4,22 @@
 }
 
 <h1>Home</h1>
-<img src="~/gif.gif" />
+@*<img src="~/gif.gif" />*@
+
+@await Component.InvokeAsync("Noticias", new { total = 3, noticiasUrgentes = false })
+
+<vc:noticias total="4" noticias-urgentes="true"></vc:noticias>
+
+<email mail-to="guilherme"></email>
+
 <ul>
     @foreach (var item in Model)
     {
-    <li>
-        <p>@item.Id</p>
-        <p>@item.Autor</p>
-        <p>@item.Descricao</p>
-    </li>
+        <li>
+            <p>@item.Id</p>
+            <p>@item.Autor</p>
+            <p>@item.Descricao</p>
+        </li>
     }
 </ul>
 

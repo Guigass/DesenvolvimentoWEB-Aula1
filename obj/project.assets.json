@@ -14480,6 +14480,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.ASPNETCore.All >= 2.1.4",
+      "Microsoft.AspNetCore.Mvc.Razor.ViewCompilation >= 2.1.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.3",
       "Microsoft.EntityFrameworkCore.Tools >= 2.1.3",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -14534,6 +14535,10 @@
           "Microsoft.ASPNETCore.All": {
             "target": "Package",
             "version": "[2.1.4, )"
+          },
+          "Microsoft.AspNetCore.Mvc.Razor.ViewCompilation": {
+            "target": "Package",
+            "version": "[2.1.1, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
